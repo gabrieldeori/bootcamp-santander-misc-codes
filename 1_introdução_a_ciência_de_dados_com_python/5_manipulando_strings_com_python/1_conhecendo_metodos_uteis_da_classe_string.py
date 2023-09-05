@@ -2,6 +2,8 @@
 print("curso = 'pYtHon'")
 curso = 'pYtHon'
 
+print()
+
 print("print(curso.upper())")
 print(f"# {curso.upper()}")
 print("print(curso.lower())")
