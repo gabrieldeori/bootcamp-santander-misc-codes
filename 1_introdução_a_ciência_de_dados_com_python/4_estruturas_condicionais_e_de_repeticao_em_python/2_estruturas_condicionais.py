@@ -31,7 +31,7 @@ if conta_normal:
         saldo -= saque
         print("Saque realizado com sucesso")
     elif saque <= (saldo + cheque_especial):
-        calc_saldo =  saque - saldo
+        calc_saldo = saque - saldo
         cheque_especial = cheque_especial - calc_saldo
         deve_cheque_especial = calc_saldo
         saldo = 0
